@@ -14,6 +14,6 @@ public class IsEven {
     public static boolean isEven(int n) {
         // TODO implement
 
-        return false;
+        return n % 2 == 0;
     }
 }
