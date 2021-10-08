@@ -16,6 +16,6 @@ public class ThreeDigitsSum {
     public static int sum(int n) {
         // TODO implement
 
-        return n / 100 + n % 10 + n / 100 % 10;
+        return n / 100 + n % 10 + n / 10 % 10;
     }
 }
