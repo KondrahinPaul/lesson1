@@ -13,6 +13,7 @@ public class BiggestInRandom {
     public static void main(String[] args) {
         int rnd = threeDigitRandom();
 
+
         String largestDigit = largestDigit(rnd);
 
         System.out.println(largestDigit);
@@ -30,7 +31,7 @@ public class BiggestInRandom {
         int a = rnd / 100;
         int b = rnd % 10;
         int c = rnd / 10 % 10;
-        int max = 0;
+        int max = 1;
         if (a > b && a > c) {
             max = a;
         } else if (b > a && b > c) {

@@ -20,6 +20,7 @@ public class DivisionRemainder {
         int i = q / w;
         int r = q % w;
 
+
         System.out.printf("%s / %s = %s и %s в остатке\n", q, w, i, r);
     }
 }
