@@ -8,8 +8,6 @@ public class ClosestToTen {
     public static void main(String[] args) {
         float m = 8.5f;
         float n = 11.45f;
-
-
         String closestToTen = closestToTen(m, n);
 
         System.out.println(closestToTen);
