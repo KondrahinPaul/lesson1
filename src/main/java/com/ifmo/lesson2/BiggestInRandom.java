@@ -39,6 +39,7 @@ public class BiggestInRandom {
         } else {
             max = c;
         }
+
         return "В числе " + rnd + " наибольшая цифра " + max + ".";
     }
 }
