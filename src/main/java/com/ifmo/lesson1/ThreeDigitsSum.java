@@ -9,8 +9,6 @@ public class ThreeDigitsSum {
         int n = 123;
 
         int sum = sum(n);
-
-
         System.out.println(sum);
     }
 
