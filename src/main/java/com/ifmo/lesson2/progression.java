@@ -1,6 +1,6 @@
 package com.ifmo.lesson2;
 
-public class Progression {
+public class progression {
     /*
      Создайте программу, выводящую на экран все четырёхзначные числа последовательности
      1000 1003 1006 1009 1012 1015 ….
@@ -9,6 +9,7 @@ public class Progression {
         // TODO implement
         int n = 1000;
         while (n<9999) {
+
             System.out.println(n);
             n = n + 3;
 
