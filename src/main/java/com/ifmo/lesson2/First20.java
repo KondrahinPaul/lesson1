@@ -10,7 +10,7 @@ public class First20 {
         int i = 2;
         for (int connt = 1; connt <= 20; connt++)
         {
-                            System.out.println(i);
+            System.out.println(i);
             i = i * 2;
         }
     }
