@@ -8,12 +8,10 @@ public class First20 {
     public static void main(String[] args) {
         // TODO implement
         int i = 2;
-        int connt = 1;
-        while (connt < 21) {
+        for (int connt = 1; connt <= 20; connt++)
+        {
                             System.out.println(i);
             i = i * 2;
-                    connt++;
-
         }
     }
 }
