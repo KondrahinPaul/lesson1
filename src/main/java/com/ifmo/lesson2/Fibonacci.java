@@ -11,7 +11,7 @@ public class Fibonacci {
         int per1 = 1;
         System.out.println(per1);
         int per2 = 1;
-        for (int connt = 1; connt <= 11; connt++) {
+        for (int connt = 1; connt < 11; connt++) {
 
             System.out.println(per2);
             per2 = per1 + per2;
