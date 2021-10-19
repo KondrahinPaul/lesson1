@@ -12,6 +12,7 @@ public class Fibonacci {
         System.out.println(per1);
         int per2 = 1;
         for (int connt = 1; connt <= 11; connt++) {
+
             System.out.println(per2);
             per2 = per1 + per2;
             per1 = per2 - per1;
