@@ -14,7 +14,7 @@ public class Fibonacci20 {
 
     public static int[] fibonacciNumbers() {
         // TODO implement
-        int[] i = new int[19];
+        int[] i = new int[20];
         i[0] = 1;
         i[1] = 1;
         System.out.println(i[0]);
