@@ -14,17 +14,16 @@ public class Fibonacci20 {
 
     public static int[] fibonacciNumbers() {
         // TODO implement
-        int per1 = 1;
-        System.out.println(per1);
-        int per2 = 1;
-        for (int connt = 1; connt < 20; connt++) {
-
-            System.out.println(per2);
-            per2 = per1 + per2;
-            per1 = per2 - per1;
+        int[] i = new int[19];
+        i[0] = 1;
+        i[1] = 1;
+        System.out.println(i[0]);
+        System.out.println(i[1]);
+        for (int x=2; x< i.length;x++ ) {
+            i[x] =i[x-1] +i[x-2];
+            System.out.println(i[x]);
         }
-
-        return new int[0];
+        return i;
     }
 
 }
