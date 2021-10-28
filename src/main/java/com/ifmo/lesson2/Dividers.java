@@ -11,7 +11,7 @@ public class Dividers {
         Scanner scanner = new Scanner(System.in);
 
         int n = scanner.nextInt();
-
+n = Math.abs(n);
         // TODO implement
         System.out.println("Делители числа " + n);
         for (int i=1; i<=n; i++) {
