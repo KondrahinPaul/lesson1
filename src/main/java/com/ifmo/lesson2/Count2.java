@@ -28,6 +28,7 @@ for (y = 10; y < 50000; y++)
         else if (y%10000/1000 ==2) {count ++;}
         else if (y%100000/10000 ==2) {count ++;};
         return count;
+
     }
 }
 
