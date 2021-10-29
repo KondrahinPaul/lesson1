@@ -15,14 +15,13 @@ public class UnluckyNumbers {
 
     public static int unluckyNumbersCount() {
         // TODO implement
- int count = 0;
+        int count = 0;
 for (int i = 1; i<100000;i++) {
     if (i%10==4) {
         count++;
-
     }else if (i%100/10==4){
         count++;
-    }else if (i%1000/100==4){
+        }else if (i%1000/100==4){
         count++;
     }else if (i%10000/1000==4){
         count++;
