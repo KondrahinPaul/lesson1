@@ -20,7 +20,6 @@ public class IntsOrdering {
         int a = 2, b = 4, c = 3;
 
         String ordering = ordering(a, b, c);
-
         System.out.println(ordering);
     }
 
