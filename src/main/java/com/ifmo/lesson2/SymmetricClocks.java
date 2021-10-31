@@ -14,12 +14,13 @@ public class SymmetricClocks {
         // TODO implement
         int count = 0;
               for (int x = 0; x <= 2; x++) {
-                  if (x==0 && x==1) {
+                  if (x==0) {
                       for (int y = 0; y <= 9; y++) {
                           for (int z = 0; z <= 5; z++) {
                               for (int q = 0; q <= 9; q++) {
                                   if (x == q) {
                                       if (y == z) {
+                                          System.out.println(x+""+y+"  "+z+""+q);
                                           count++;
                                       }
                                   }
@@ -27,11 +28,27 @@ public class SymmetricClocks {
                           }
                       }
                   }
-                  else {for (int y = 0; y <= 4; y++) {
+                  else if (x==1) {
+                      for (int y = 0; y <= 9; y++) {
+                          for (int z = 0; z <= 5; z++) {
+                              for (int q = 0; q <= 9; q++) {
+                                  if (x == q) {
+                                      if (y == z) {
+                                          System.out.println(x+""+y+"  "+z+""+q);
+                                          count++;
+                                      }
+                                  }
+                              }
+                          }
+                      }
+                  }
+
+                  else {for (int y = 0; y < 4; y++) {
                       for (int z = 0; z <= 5; z++) {
                           for (int q = 0; q <= 9; q++) {
                               if (x == q) {
                                   if (y == z) {
+                                      System.out.println(x+""+y+"  "+z+""+q);
                                       count++;
                                   }
                               }
