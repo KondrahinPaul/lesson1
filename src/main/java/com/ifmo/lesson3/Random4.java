@@ -39,9 +39,9 @@ public class Random4 {
 
     public static boolean isIncreasingSequence(int[] randomNumbers) {
         // TODO implement
-        if (randomNumbers[0] > randomNumbers[1]) {
-            if (randomNumbers[1]>randomNumbers[2]) {
-                if (randomNumbers[2]>randomNumbers[3]) {
+        if (randomNumbers[0] < randomNumbers[1]) {
+            if (randomNumbers[1]<randomNumbers[2]) {
+                if (randomNumbers[2]<randomNumbers[3]) {
                     return true;
                 }
             }
