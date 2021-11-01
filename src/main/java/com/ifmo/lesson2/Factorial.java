@@ -19,9 +19,10 @@ public class Factorial {
 
     public static long factorial(int n) {
         // TODO implement
-        int count = 1;
+        long count = 1;
 for (int i=1; i<=n; i++) {
-    count=count*i;
+    count = count * i;
+    System.out.println(count);
 }
         return count;
     }
