@@ -10,8 +10,8 @@ public class SquareEquation {
      */
     public static void main(String[] args) {
         double a = 2;
-        double b = 9;
-        double c = 2;
+        double b = -9;
+        double c = 9;
 
         double[] roots = squareEquationRoots(a, b, c);
 
@@ -25,10 +25,10 @@ public class SquareEquation {
         // TODO implement
 double[] ansve  = new double[2];
 
-        double d = 2*b-4*a*c;
+        double d = Math.pow(b,2)-4*a*c;
 if (d>=0) {
-    ansve[0] = (-b-Math.sqrt(d))/2*a;
-    ansve[1] = (-b+Math.sqrt(d))/2*a;
+    ansve[0] = (-b-Math.sqrt(d))/(2*a);
+    ansve[1] = (-b+Math.sqrt(d))/(2*a);
 }else {
     return null;
 }
