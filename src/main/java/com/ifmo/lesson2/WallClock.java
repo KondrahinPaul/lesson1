@@ -50,10 +50,18 @@ System.out.println(randomSecond);
         // TODO implement
 int i = rndSecond;
 i = (int) Math.ceil(i/3600);
-if (i>1) {
-    if (i>=5){
-    return "Осталось " + i + " часов";}else {return "Осталось " + i + " часа";}
-} else
+
+if (i>=1) {
+    if (i == 1) {
+        return "Остался 1 час";
+    } else {
+        if (i >= 5) {
+            return "Осталось " + i + " часов";
+        } else {
+            return "Осталось " + i + " часа";
+        }
+    }
+}else
         return "Осталось менее часа";
     }
 }
