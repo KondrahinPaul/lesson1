@@ -12,7 +12,6 @@ public class ClosestToTen {
         System.out.println(closestToTen);
 
     }
-
     public static String closestToTen(float m, float n) {
         // TODO implement
         float d1 = Math.abs(10 - m);
