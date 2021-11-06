@@ -6,8 +6,8 @@ public class ClosestToTen {
      переменные m и n. Например, среди чисел 8,5 и 11,45 ближайшее к десяти 11,45.
      */
     public static void main(String[] args) {
-        float m = -10.5f;
-        float n = 111.45f;
+        float m = 8.5f;
+        float n = 11.45f;
         String closestToTen = closestToTen(m, n);
         System.out.println(closestToTen);
 
@@ -17,8 +17,8 @@ public class ClosestToTen {
         float d1 = Math.abs(10 - m);
         float d2 = Math.abs(10-n);
         if (d1>d2) {
-            return " среди чисел " + m + " пробел  " + n + " ближе к 10  - " + n;
-        }          else {return " среди чисел " + m + " пробел  " + n + " ближе к 10  - " + m;}
+            return " среди чисел " + m + " и  " + n + " ближе к 10: " + n;
+        }          else {return " среди чисел " + m + " и  " + n + " ближе к 10: " + m;}
 
     }
    }
