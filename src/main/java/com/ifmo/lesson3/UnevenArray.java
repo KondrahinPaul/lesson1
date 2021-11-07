@@ -10,12 +10,12 @@ public class UnevenArray {
         int[] unevenArray = unevenArray();
 
         // TODO implement
-        for (int i=0;i< unevenArray.length; i++){
-            System.out.print(unevenArray[i]+" ");
+        for (int i = 0; i < unevenArray.length; i++) {
+            System.out.print(unevenArray[i]);
         }
-        System.out.print(",");
-            for (int i = 49; i>=0; i--) {
-            System.out.print(unevenArray[i]+" ");
+        System.out.print(", ");
+        for (int i = 49; i >= 0; i--) {
+            System.out.print(unevenArray[i]);
         }
 
     }
@@ -24,8 +24,8 @@ public class UnevenArray {
         // TODO implement
         int[] necet = new int[50];
         necet[0] = 1;
-        for (int i=1; i<50; i++) {
-            necet[i]=necet[i-1]+2;
+        for (int i = 1; i < 50; i++) {
+            necet[i] = necet[i - 1] + 2;
         }
 
         return necet;
