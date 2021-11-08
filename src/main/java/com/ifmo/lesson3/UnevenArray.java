@@ -14,10 +14,10 @@ public class UnevenArray {
             System.out.print(" ");
             System.out.print(unevenArray[i]);
         }
-        System.out.print(", ");
+        System.out.print(",");
         for (int i = 49; i >= 0; i--) {
             System.out.print(" ");
-            System.out.print(unevenArray[i]+" ");
+            System.out.print(unevenArray[i] + " ");
         }
 
     }
