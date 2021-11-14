@@ -23,38 +23,36 @@ public class Random12 {
 
     public static int[] randomNumbers() {
         // TODO implement
-Random rand = new Random();
-int min = -15;
-int max = 15;
-int[] randNumber = new int[12];
-for (int i =0; i<12;i++) {
-    randNumber[i] = rand.nextInt(max-min)+min;
-    System.out.println(randNumber[i]);
+        Random rand = new Random();
+        int min = -15;
+        int max = 15;
+        int[] randNumber = new int[12];
+        for (int i = 0; i < 12; i++) {
+            randNumber[i] = rand.nextInt(max - min) + min;
+            System.out.println(randNumber[i]);
 
-}
+        }
         return randNumber;
     }
 
     public static int max(int[] randomNumbers) {
         // TODO implement
-int[] randMax = randomNumbers;
-int max = -15;
-for (int i =0; i<12;i++)
-    if (randMax[i] > max) {
-        max = randMax[i];
-    }
+        int max = -15;
+        for (int i = 0; i < 12; i++)
+            if (randomNumbers[i] > max) {
+                max = randomNumbers[i];
+            }
 
         return max;
     }
 
-    public static int lastIndexOf(int[] randomNumbers, int max) {
+    public static int lastIndexOf(int[] randomNumbers, int val) {
         // TODO implement
-        int[] randMax = randomNumbers;
         int max2 = -15;
         int lastIndex = 0;
-        for (int i =0; i<12;i++)
-            if (randMax[i] >= max2) {
-                max2 = randMax[i];
+        for (int i = 0; i < 12; i++)
+            if (randomNumbers[i] >= max2) {
+                max2 = randomNumbers[i];
                 lastIndex = i;
             }
 
