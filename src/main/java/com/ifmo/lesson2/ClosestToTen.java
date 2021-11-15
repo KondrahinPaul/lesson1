@@ -7,18 +7,21 @@ public class ClosestToTen {
      */
     public static void main(String[] args) {
         float m = 8.5f;
-        float n = 11.45f;
+        float n = -11.45f;
         String closestToTen = closestToTen(m, n);
         System.out.println(closestToTen);
 
     }
+
     public static String closestToTen(float m, float n) {
         // TODO implement
         float d1 = Math.abs(10 - m);
-        float d2 = Math.abs(10-n);
-        if (d1>d2) {
+        float d2 = Math.abs(10 - n);
+        if (d1 > d2) {
             return " среди чисел " + m + " и  " + n + " ближе к 10: " + n;
-        }          else {return " среди чисел " + m + " и  " + n + " ближе к 10: " + m;}
+        } else {
+            return " среди чисел " + m + " и  " + n + " ближе к 10: " + m;
+        }
 
     }
-   }
+}
