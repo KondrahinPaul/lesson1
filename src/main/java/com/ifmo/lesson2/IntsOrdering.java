@@ -25,6 +25,7 @@ public class IntsOrdering {
 
     public static String ordering(int a, int b, int c) {
         // TODO implement
+
         int max=0;
         int midle=0;
         int min =0;
