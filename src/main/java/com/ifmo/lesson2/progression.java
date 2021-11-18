@@ -9,7 +9,7 @@ public class progression {
         // TODO implement
         int n = 1000;
         while (n<9999) {
-            System.out.println(n);
+            System.out.print(n+" ");
             n = n + 3;
         }
     }
