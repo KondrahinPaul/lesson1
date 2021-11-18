@@ -10,6 +10,7 @@ public class progression {
         int n = 1000;
         while (n<9999) {
 
+
             System.out.println(n);
             n = n + 3;
 
